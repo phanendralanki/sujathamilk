@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    position: relative;
+    background:linear-gradient(to top,rgb(0,0,0,0.7),rgb(0,0,0,0.7)),url(background.jfif) no-repeat ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.icon{
+    position: absolute;
+    top:20px;
+    left: 24px;
+}
+
+.logo{
+    font-family: arial;
+    color: rgb(255,255,0);
+    font-size: 40px;
+}
+
+.nav{
+    width: 100vw;
+}
+
+.nav ul{
+    height: 30px;
+    list-style: none;
+    margin-left: 640px;
+    margin-right: 20px;
+}
+
+.nav ul li{
+    display: flex;
+    float: left;
+    margin-top:24px;
+    margin-left: 24px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 0.5s ease;
+}
+
+.nav ul li a:hover{
+    color: yellow;
+}
+
+.search{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.search input{
+    float: left;
+    height: 22px;
+    width: 200px;
+    background: transparent;
+    color: white;
+    border: 1px solid yellow;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 4px;
+    font-size: 16px;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+.search button{
+    font-family: sans-serif;
+    font-size: 14px;
+    width: 80px;
+    height: 32px;
+    border: none;
+    background-color: yellow;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.search button:hover{
+    background-color: white;
+}
+
+/* content styling */
+.content{
+    color: white;
+    clear: both;           /*Margin does not work if we use clear both instead we can use padding to get space at top*/
+    width: 60vw;
+    padding-top: 160px;
+    padding-left: 40px;
+    float: left;
+}
+
+.content h1{
+    font-family: Arial;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.content h1 span{
+    color: yellow;
+    font-size: 72px;
+}
+
+.content p{
+    font-size: 24px;
+    padding: 10px;
+    line-height: 10px;
+    letter-spacing: 1.5px;
+}
+
+.ceo-image{
+    margin-top: 50px;
+    height: 70vh;
+    width: 50vw;
+}
+
+.ceo-intro{
+    margin-top: 50px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
